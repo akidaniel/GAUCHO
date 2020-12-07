@@ -4876,7 +4876,7 @@ a.btn-link {
    Component: Icon
  ========================================================================== */
 @font-face {
-  font-family: 'Font Awesome 5 Free';
+  font-family: 'FontAwesome';
   font-weight: normal;
   font-style: normal; font-weight: 900;
 }
@@ -4888,7 +4888,7 @@ a.btn-link {
  * 6. Remove `text-decoration` for anchors
  */
 [class*='fas fa-'] {
-  font-family: "Font Awesome 5 Free"; font-weight: 900;
+  font-family: FontAwesome; font-weight: 900;
   /* 1 */
   display: inline-block;
   /* 2 */
@@ -5357,10 +5357,10 @@ a.btn-link {
 .fas fa-bar-chart:before {
   content: "\f080";
 }
-.fas fa-twitter-square:before {
+.fas fa-twitter-square:before {font-family: 'Font Awesome 5 Brands'!important;
   content: "\f081";
 }
-.fas fa-facebook-square:before {
+.fas fa-facebook-square:before {font-family: 'Font Awesome 5 Brands'!important;
   content: "\f082";
 }
 .fas fa-camera-retro:before {
@@ -5427,14 +5427,14 @@ a.btn-link {
 .fas fa-phone-square:before {
   content: "\f098";
 }
-.fas fa-twitter:before {font-family: "Font Awesome 5 Brands";
+.fas fa-twitter:before {font-family: 'Font Awesome 5 Brands'!important;
   content: "\f099";
 }
 .fas fa-facebook-f:before,
-.fas fa-facebook:before {font-family: "Font Awesome 5 Brands";
+.fas fa-facebook:before {font-family: 'Font Awesome 5 Brands'!important;
   content: "\f09a";
 }
-.fas fa-github:before {font-family: "Font Awesome 5 Brands";
+.fas fa-github:before {font-family: 'Font Awesome 5 Brands'!important;
   content: "\f09b";
 }
 .fas fa-unlock:before {
@@ -5711,7 +5711,7 @@ a.btn-link {
   content: "\f104";
 }
 .fas fa-angle-right:before {
-  content: "f105";
+  content: "\f105";
 }
 .fas fa-angle-up:before {
   content: "\f106";
@@ -6050,25 +6050,25 @@ a.btn-link {
 .fas fa-long-arrow-right:before {
   content: "\f178";
 }
-.fas fa-apple:before {font-family: "Font Awesome 5 Brands";
+.fas fa-apple:before {font-family: 'Font Awesome 5 Brands'!important;
   content: "\f179";
 }
-.fas fa-windows:before {font-family: "Font Awesome 5 Brands";
+.fas fa-windows:before {font-family: 'Font Awesome 5 Brands'!important;
   content: "\f17a";
 }
-.fas fa-android:before {font-family: "Font Awesome 5 Brands";
+.fas fa-android:before {font-family: 'Font Awesome 5 Brands'!important;
   content: "\f17b";
 }
-.fas fa-linux:before {font-family: "Font Awesome 5 Brands";
+.fas fa-linux:before {font-family: 'Font Awesome 5 Brands'!important;
   content: "\f17c";
 }
-.fas fa-dribbble:before {font-family: "Font Awesome 5 Brands";
+.fas fa-dribbble:before {font-family: 'Font Awesome 5 Brands'!important;
   content: "\f17d";
 }
-.fas fa-skype:before {font-family: "Font Awesome 5 Brands";
+.fas fa-skype:before {font-family: 'Font Awesome 5 Brands'!important;
   content: "\f17e";
 }
-.fas fa-foursquare:before {font-family: "Font Awesome 5 Brands";
+.fas fa-foursquare:before {font-family: 'Font Awesome 5 Brands'!important;
   content: "\f180";
 }
 .fas fa-trello:before {
@@ -6580,13 +6580,13 @@ a.btn-link {
 .fas fa-neuter:before {
   content: "\f22c";
 }
-.fas fa-facebook-official:before {
+.fas fa-facebook-official:before {font-family: 'Font Awesome 5 Brands'!important;
   content: "\f230";
 }
-.fas fa-pinterest-p:before {
+.fas fa-pinterest-p:before {font-family: 'Font Awesome 5 Brands'!important;
   content: "\f231";
 }
-.fas fa-whatsapp:before {
+.fas fa-whatsapp:before {font-family: 'Font Awesome 5 Brands'!important;
   content: "\f232";
 }
 .fas fa-server:before {
@@ -7396,7 +7396,6 @@ a.uk-thumbnail:focus {
   margin-left: -15px;
   font-size: 30px;
   line-height: 1;
-  font-family: "Font Awesome 5 Free";
   text-align: center;
   color: #ffffff;
   font-family: "Font Awesome 5 Free";
@@ -10378,7 +10377,7 @@ a.uk-thumbnail:focus {
   font-weight: 900;
 }
 .uk-slidenav-next:before {
-  content: "f105";
+  content: "\f105";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
 }
@@ -13121,14 +13120,14 @@ aside > .uk-panel-box {
   position: relative;
   line-height: 170px;
   width: 33.333%;
-  height: 170px;
-  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2), inset 0 5px 0 rgba(0, 0, 0, 0.1), inset 0 6px 0 rgba(255, 255, 255, 0.1);
+  height: 320px;
+  /*box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2), inset 0 5px 0 rgba(0, 0, 0, 0.1), inset 0 6px 0 rgba(255, 255, 255, 0.1);
   background-color: rgba(210, 199, 24, 0.8);
   background: -webkit-linear-gradient(270deg, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%) rgba(210, 199, 24, 0.8);
   background: -moz-linear-gradient(270deg, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%) rgba(210, 199, 24, 0.8);
   background: -o-linear-gradient(270deg, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%) rgba(210, 199, 24, 0.8);
   background: -ms-linear-gradient(270deg, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%) rgba(210, 199, 24, 0.8);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%) rgba(210, 199, 24, 0.8);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%) rgba(210, 199, 24, 0.8);*/
   text-align: center;
   overflow: hidden;
   margin: 0 -25px;
