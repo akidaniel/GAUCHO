@@ -10371,7 +10371,7 @@ a.uk-thumbnail:focus {
   font-family: "Font Awesome 5 Free";
 }
 .uk-slidenav-next:before {
-  content: "\f105";
+  content: "f105";
   font-family: "Font Awesome 5 Free";
 }
 /* Sub-object: `uk-slidenav-position`
