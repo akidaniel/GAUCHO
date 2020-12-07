@@ -7843,7 +7843,7 @@ a.uk-thumbnail:focus {
 }
 /* Hide animated element if scrollspy is used */
 @media screen {
-/*  [data-uk-scrollspy*='uk-animation-']:not([data-uk-scrollspy*='target']) {
+[data-uk-scrollspy*='uk-animation-']:not([data-uk-scrollspy*='target']) {
     opacity: 0;
   }
 }
