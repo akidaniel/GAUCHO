@@ -2650,7 +2650,7 @@ ul.uk-nav-sub {
   width: 12px;
   margin-right: 0;
   float: right;
-  font-family: Font Awesome 5 Free;
+  font-family: "Font Awesome 5 Free";
   text-align: center;
   color: rgba(56, 47, 47, 0.5);
 }
@@ -3048,7 +3048,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
  */
 .uk-navbar-toggle:after {
   content: "\f0c9";
-  font-family: Font Awesome 5 Free;
+  font-family: "Font Awesome 5 Free";
   /* 1 */
   vertical-align: middle;
 }
@@ -3536,7 +3536,7 @@ li.uk-parent > ul.uk-dropdown-flip {
  */
 .uk-tab-responsive > a:before {
   content: "\f0c9\00a0";
-  font-family: Font Awesome 5 Free;
+  font-family: "Font Awesome 5 Free";
 }
 /* Modifier: 'tab-center'
  ========================================================================== */
@@ -4886,7 +4886,7 @@ a.btn-link {
  * 6. Remove `text-decoration` for anchors
  */
 [class*='fas fa-'] {
-  font-family: Font Awesome 5 Free;
+  font-family: "Font Awesome 5 Free";
   /* 1 */
   display: inline-block;
   /* 2 */
@@ -7021,7 +7021,7 @@ a.btn-link {
 .uk-close:after {
   display: block;
   content: "\f00d";
-  font-family: Font Awesome 5 Free;
+  font-family: "Font Awesome 5 Free";
 }
 /*
  * Hover
@@ -7394,7 +7394,7 @@ a.uk-thumbnail:focus {
   margin-left: -15px;
   font-size: 30px;
   line-height: 1;
-  font-family: Font Awesome 5 Free;
+  font-family: "Font Awesome 5 Free";
   text-align: center;
   color: #ffffff;
   font-family: "Font Awesome 5 Free";
@@ -7554,7 +7554,7 @@ a.uk-thumbnail:focus {
   margin-left: -25px;
   font-size: 50px;
   line-height: 1;
-  font-family: Font Awesome 5 Free;
+  font-family: "Font Awesome 5 Free";
   text-align: center;
   color: #ffffff;
 }
@@ -8861,7 +8861,7 @@ a.uk-thumbnail:focus {
 .uk-modal-spinner:after {
   content: "\f110";
   display: block;
-  font-family: Font Awesome 5 Free;
+  font-family: "Font Awesome 5 Free";
   -webkit-animation: uk-rotate 2s infinite linear;
   animation: uk-rotate 2s infinite linear;
 }
@@ -10368,11 +10368,11 @@ a.uk-thumbnail:focus {
  */
 .uk-slidenav-previous:before {
   content: "\f104";
-  font-family: Font Awesome 5 Free;
+  font-family: "Font Awesome 5 Free";
 }
 .uk-slidenav-next:before {
   content: "\f105";
-  font-family: Font Awesome 5 Free;
+  font-family: "Font Awesome 5 Free";
 }
 /* Sub-object: `uk-slidenav-position`
  ========================================================================== */
@@ -10666,7 +10666,7 @@ a.uk-thumbnail:focus {
 .uk-datepicker-previous:after,
 .uk-datepicker-next:after {
   width: 20px;
-  font-family: Font Awesome 5 Free;
+  font-family: "Font Awesome 5 Free";
 }
 .uk-datepicker-previous:after {
   content: "\f053";
@@ -10784,7 +10784,7 @@ a.uk-datepicker-table-muted {
 .uk-form input[type=checkbox]:checked:before,
 .uk-form input[type=checkbox]:indeterminate:before {
   content: "\f00c";
-  font-family: Font Awesome 5 Free;
+  font-family: "Font Awesome 5 Free";
   font-size: 12px;
   -webkit-font-smoothing: antialiased;
   text-align: center;
@@ -11225,7 +11225,7 @@ a.uk-datepicker-table-muted {
 }
 .uk-nestable-toggle:after {
   content: "\f147";
-  font-family: Font Awesome 5 Free;
+  font-family: "Font Awesome 5 Free";
 }
 .uk-parent > :not(.uk-nestable-list) .uk-nestable-toggle {
   visibility: visible;
@@ -11392,7 +11392,7 @@ a.uk-datepicker-table-muted {
   width: 0;
   line-height: 30px;
   text-align: center;
-  font-family: Font Awesome 5 Free;
+  font-family: "Font Awesome 5 Free";
   font-size: 14px;
   color: #ffffff;
   left: 23px;
