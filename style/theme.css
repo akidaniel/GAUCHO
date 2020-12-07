@@ -1972,6 +1972,7 @@ hr {
   font-family: "Font Awesome 5 Free";
   color: #aea512;
   font-size: 20px;
+  font-weight: 900;
 }
 .tm-panel-card .uk-panel-teaser {
   margin: 0;
@@ -2653,6 +2654,7 @@ ul.uk-nav-sub {
   font-family: "Font Awesome 5 Free";
   text-align: center;
   color: rgba(56, 47, 47, 0.5);
+  font-weight: 900;
 }
 .uk-nav-parent-icon > .uk-parent.uk-open > a:after {
   content: "\f103";
@@ -3050,7 +3052,7 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
   content: "\f0c9";
   font-family: "Font Awesome 5 Free";
   /* 1 */
-  vertical-align: middle;
+  vertical-align: middle; font-weight: 900;
 }
 .uk-navbar-toggle-alt:after {
   content: "\f002";
@@ -3303,7 +3305,7 @@ li.uk-parent > ul.uk-dropdown-flip {
   display: inline-block;
   margin: 0 15px;
   color: rgba(56, 47, 47, 0.3);
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome 5 Free"; font-weight: 900;
 }
 /*
  * Disabled
@@ -3536,7 +3538,7 @@ li.uk-parent > ul.uk-dropdown-flip {
  */
 .uk-tab-responsive > a:before {
   content: "\f0c9\00a0";
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome 5 Free"; font-weight: 900;
 }
 /* Modifier: 'tab-center'
  ========================================================================== */
@@ -4876,7 +4878,7 @@ a.btn-link {
 @font-face {
   font-family: 'Font Awesome 5 Free';
   font-weight: normal;
-  font-style: normal;
+  font-style: normal; font-weight: 900;
 }
 /*
  * 1. Allow margin
@@ -4886,7 +4888,7 @@ a.btn-link {
  * 6. Remove `text-decoration` for anchors
  */
 [class*='fas fa-'] {
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome 5 Free"; font-weight: 900;
   /* 1 */
   display: inline-block;
   /* 2 */
@@ -7021,7 +7023,7 @@ a.btn-link {
 .uk-close:after {
   display: block;
   content: "\f00d";
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome 5 Free"; font-weight: 900;
 }
 /*
  * Hover
@@ -7403,6 +7405,7 @@ a.uk-thumbnail:focus {
   top: 55%;
   opacity: 0;
   transition: all cubic-bezier(0.62, 0.28, 0.23, 0.99) 250ms;
+  font-weight: 900;
 }
 /* Transitions
  ========================================================================== */
@@ -7557,6 +7560,7 @@ a.uk-thumbnail:focus {
   font-family: "Font Awesome 5 Free";
   text-align: center;
   color: #ffffff;
+  font-weight: 900;
 }
 /* DEPRECATED
  * Sub-object `uk-overlay-area-content`
@@ -8632,6 +8636,7 @@ a.uk-thumbnail:focus {
   right: 15px;
   font-size: 18px;
   color: #ffffff;
+  font-weight: 900;
 }
 .tm-navbar .uk-dropdown li.uk-parent:hover > a:before {
   color: #ffffff;
@@ -8864,6 +8869,7 @@ a.uk-thumbnail:focus {
   font-family: "Font Awesome 5 Free";
   -webkit-animation: uk-rotate 2s infinite linear;
   animation: uk-rotate 2s infinite linear;
+  font-weight: 900;
 }
 /* ========================================================================
    Component: Off-canvas
@@ -10369,10 +10375,12 @@ a.uk-thumbnail:focus {
 .uk-slidenav-previous:before {
   content: "\f104";
   font-family: "Font Awesome 5 Free";
+  font-weight: 900;
 }
 .uk-slidenav-next:before {
   content: "f105";
   font-family: "Font Awesome 5 Free";
+  font-weight: 900;
 }
 /* Sub-object: `uk-slidenav-position`
  ========================================================================== */
@@ -10667,12 +10675,15 @@ a.uk-thumbnail:focus {
 .uk-datepicker-next:after {
   width: 20px;
   font-family: "Font Awesome 5 Free";
+  font-weight: 900;
 }
 .uk-datepicker-previous:after {
   content: "\f053";
+  font-weight: 900;
 }
 .uk-datepicker-next:after {
   content: "\f054";
+  font-weight: 900;
 }
 /* Sub-object: `uk-datepicker-heading`
 ========================================================================== */
@@ -10790,6 +10801,7 @@ a.uk-datepicker-table-muted {
   text-align: center;
   line-height: 14px;
   color: #aea512;
+  font-weight: 900;
 }
 .uk-form input[type=checkbox]:indeterminate:before {
   content: "\f068";
@@ -11225,7 +11237,7 @@ a.uk-datepicker-table-muted {
 }
 .uk-nestable-toggle:after {
   content: "\f147";
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome 5 Free"; font-weight: 900;
 }
 .uk-parent > :not(.uk-nestable-list) .uk-nestable-toggle {
   visibility: visible;
@@ -11396,6 +11408,7 @@ a.uk-datepicker-table-muted {
   font-size: 14px;
   color: #ffffff;
   left: 23px;
+  font-weight: 900;
 }
 /* Sub-object `uk-search-field`
  ========================================================================== */
@@ -13189,6 +13202,7 @@ aside > .uk-panel-box {
   line-height: 70px;
   color: rgba(8, 4, 4, 0.4);
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+  font-weight: 900;
 }
 .tm-navbar > ul > li:hover > a:before,
 .tm-navbar > ul > li.uk-parent.uk-open > a:before,
@@ -13418,6 +13432,7 @@ html[dir="rtl"] .tm-navbar .uk-navbar-nav > li .uk-dropdown-navbar {
 .tm-totop-scroller:after {
   content: "\f106";
   font-family: "Font Awesome 5 Free";
+  font-weight: 900;
 }
 .tm-totop-scroller:hover,
 .tm-totop-scroller:focus {
@@ -13954,6 +13969,7 @@ p:empty {
 .tm-article-icons .icon-print:before,
 .tm-article-icons .icon-envelope:before {
   font-family: "Font Awesome 5 Free";
+  font-weight: 900;
 }
 .tm-article-icons .icon-print:before {
   content: "\f02f";
@@ -14214,6 +14230,7 @@ p:empty {
   color: #1a1010;
   font-family: "Font Awesome 5 Free";
   font-size: 30px;
+  font-weight: 900;
 }
 .tm-slideshow-gaucho .uk-slidenav-next:hover,
 .tm-slideshow-gaucho .uk-slidenav-previous:hover {
@@ -14228,10 +14245,10 @@ p:empty {
   margin-top: 55px;
 }
 .tm-slideshow-gaucho .uk-slidenav-previous:before {
-  content: "\f104"; font-weight: 500;
+  content: "\f104";
 }
 .tm-slideshow-gaucho .uk-slidenav-next:before {
-  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
+ content: "\f105";
 }
 .tm-scroll-arrow {
   height: 35px;
