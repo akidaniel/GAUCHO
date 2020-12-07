@@ -5427,14 +5427,14 @@ a.btn-link {
 .fas fa-phone-square:before {
   content: "\f098";
 }
-.fas fa-twitter:before {
+.fas fa-twitter:before {font-family: "Font Awesome 5 Brands";
   content: "\f099";
 }
 .fas fa-facebook-f:before,
-.fas fa-facebook:before {
+.fas fa-facebook:before {font-family: "Font Awesome 5 Brands";
   content: "\f09a";
 }
-.fas fa-github:before {
+.fas fa-github:before {font-family: "Font Awesome 5 Brands";
   content: "\f09b";
 }
 .fas fa-unlock:before {
@@ -6050,25 +6050,25 @@ a.btn-link {
 .fas fa-long-arrow-right:before {
   content: "\f178";
 }
-.fas fa-apple:before {
+.fas fa-apple:before {font-family: "Font Awesome 5 Brands";
   content: "\f179";
 }
-.fas fa-windows:before {
+.fas fa-windows:before {font-family: "Font Awesome 5 Brands";
   content: "\f17a";
 }
-.fas fa-android:before {
+.fas fa-android:before {font-family: "Font Awesome 5 Brands";
   content: "\f17b";
 }
-.fas fa-linux:before {
+.fas fa-linux:before {font-family: "Font Awesome 5 Brands";
   content: "\f17c";
 }
-.fas fa-dribbble:before {
+.fas fa-dribbble:before {font-family: "Font Awesome 5 Brands";
   content: "\f17d";
 }
-.fas fa-skype:before {
+.fas fa-skype:before {font-family: "Font Awesome 5 Brands";
   content: "\f17e";
 }
-.fas fa-foursquare:before {
+.fas fa-foursquare:before {font-family: "Font Awesome 5 Brands";
   content: "\f180";
 }
 .fas fa-trello:before {
