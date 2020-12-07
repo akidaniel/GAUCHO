@@ -1611,7 +1611,7 @@ hr {
   background: rgba(0, 0, 0, 0.1);
   color: #1a1a10;
 }
-.uk-panel-box-primary .uk-form-icon > [class*='uk-icon-'] {
+.uk-panel-box-primary .uk-form-icon > [class*='fas fa-'] {
   color: rgba(26, 26, 16, 0.3);
 }
 .uk-panel-box-primary .uk-form :-ms-input-placeholder {
@@ -1626,7 +1626,7 @@ hr {
 .uk-panel-box-primary.uk-modal-dialog {
   background-color: #d2c82a;
 }
-.uk-panel-box-primary.uk-modal-dialog [class*='uk-icon-'] {
+.uk-panel-box-primary.uk-modal-dialog [class*='fas fa-'] {
   color: #1a1a10;
 }
 .uk-panel-box-primary .uk-alert-success {
@@ -1782,7 +1782,7 @@ hr {
   background: rgba(0, 0, 0, 0.1);
   color: #ffffff;
 }
-.uk-panel-box-secondary .uk-form-icon > [class*='uk-icon-'] {
+.uk-panel-box-secondary .uk-form-icon > [class*='fas fa-'] {
   color: rgba(255, 255, 255, 0.3);
 }
 .uk-panel-box-secondary .uk-form :-ms-input-placeholder {
@@ -1998,7 +1998,7 @@ hr {
   margin-top: -45px;
   opacity: 1;
 }
-.tm-panel-card .uk-panel-teaser .tm-social-icons .uk-icon-button {
+.tm-panel-card .uk-panel-teaser .tm-social-icons .fas fa-button {
   width: 30px;
   height: 35px;
   color: #ffffff;
@@ -2006,7 +2006,7 @@ hr {
   border-radius: 0;
   cursor: pointer;
 }
-.tm-panel-card .uk-panel-teaser .tm-social-icons .uk-icon-button:hover {
+.tm-panel-card .uk-panel-teaser .tm-social-icons .fas fa-button:hover {
   color: rgba(255, 255, 255, 0.5);
 }
 .tm-panel-card .uk-panel-teaser:before {
@@ -2304,16 +2304,16 @@ hr {
 .uk-block-secondary .uk-grid-divider:empty {
   border-top-color: #9f9c99;
 }
-.uk-block-secondary .uk-icon-button {
+.uk-block-secondary .fas fa-button {
   background: #ffffff;
   color: #887968;
 }
-.uk-block-secondary .uk-icon-button:hover,
-.uk-block-secondary .uk-icon-button:focus {
+.uk-block-secondary .fas fa-button:hover,
+.uk-block-secondary .fas fa-button:focus {
   background-color: #ffffff;
   color: #ffffff;
 }
-.uk-block-secondary .uk-icon-button:active {
+.uk-block-secondary .fas fa-button:active {
   background-color: #f2f2f2;
   color: #ffffff;
 }
@@ -3877,11 +3877,11 @@ ul.list-icons li i {
   margin: 5px 0 0 -25px;
   line-height: 22px;
 }
-.list-icons.uk-icons-large li i {
+.list-icons.fas fas-large li i {
   font-size: 20px;
   margin: 5px 0 0 -30px;
 }
-.list-icons.uk-icons-xlarge li {
+.list-icons.fas fas-xlarge li {
   padding-left: 40px;
 }
 .list-icons.uk-icons-xlarge li i {
