@@ -14228,10 +14228,10 @@ p:empty {
   margin-top: 55px;
 }
 .tm-slideshow-gaucho .uk-slidenav-previous:before {
-  content: "\f104";
+  content: "f104";
 }
 .tm-slideshow-gaucho .uk-slidenav-next:before {
-  content: "\f105";
+  content: "f105";
 }
 .tm-scroll-arrow {
   height: 35px;
