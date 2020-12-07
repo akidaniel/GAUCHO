@@ -4875,7 +4875,6 @@ a.btn-link {
  ========================================================================== */
 @font-face {
   font-family: 'Font Awesome 5 Free';
-  src: url("../vendor/uikit/fonts/Font Awesome 5 Free-webfont.woff2") format('woff2'), url("../vendor/uikit/fonts/Font Awesome 5 Free-webfont.woff") format("woff"), url("../vendor/uikit/fonts/Font Awesome 5 Free-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
