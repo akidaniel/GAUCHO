@@ -5050,7 +5050,7 @@ a.btn-link {
 .fas fa-file-o:before {
   content: "\f016";
 }
-.fas fa-clock-o:before {
+.fas fa-clock:before {
   content: "\f017";
 }
 .fas fa-road:before {
