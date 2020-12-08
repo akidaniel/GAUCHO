@@ -13415,7 +13415,37 @@ html[dir="rtl"] .tm-navbar .uk-navbar-nav > li .uk-dropdown-navbar {
     display: none;
   }
 }
-
+/*.tm-totop-scroller {
+  display: none;
+  position: fixed;
+  right: 25px;
+  bottom: -50px;
+  line-height: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 35px;
+  -webkit-transition: all ease-in-out 0.05s;
+  transition: all ease-in-out 0.05s;
+}
+.tm-totop-scroller:after {
+  content: "\f106";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+.tm-totop-scroller:hover,
+.tm-totop-scroller:focus {
+  outline: none;
+  text-decoration: none;
+}
+.tm-totop-scroller:active {
+  font-size: 26px;
+}
+.uk-active .tm-totop-scroller {
+  display: block;
+  bottom: 20px;
+  opacity: 1;
+}*/
 .tm-menu-item {
   overflow: hidden;
   position: relative;
@@ -15029,3 +15059,6 @@ input[type=range]:active::-moz-range-thumb {
 #tm-container .onwebchatbox #chat_area_id::-webkit-scrollbar-thumb:hover {
   background: #dcd453;
 }
+/* ========================================================================
+   Use this file to add custom less easily
+ ========================================================================== */
