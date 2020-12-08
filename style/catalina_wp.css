@@ -771,7 +771,7 @@ h4,
 h5,
 h6 {
   margin: 0 0 15px 0;
-  font-family: 'Khand';
+  font-family: 'Almendra', serif;
   font-weight: 400;
   color: #533834;
   text-transform: none;
@@ -1054,6 +1054,7 @@ hr {
  */
 .uk-grid > * > :last-child {
   margin-bottom: 0;
+  text-align: center;
 }
 /* Grid gutter */
 /*
@@ -5473,13 +5474,11 @@ a.btn-link {
 .fas fa-button {
   box-sizing: border-box;
   display: inline-block;
-  width: 30px;
-  height: 30px;
   border-radius: 100%;
   background: rgba(0, 0, 0, 0);
   line-height: 30px;
   color: #382f2f;
-  font-size: 20px;
+  font-size: 36px;
   text-align: center;
   width: 35px;
   height: 35px;
@@ -5488,6 +5487,7 @@ a.btn-link {
   -webkit-transition: all cubic-bezier(0.62, 0.28, 0.23, 0.99) 250ms;
   transition: all cubic-bezier(0.62, 0.28, 0.23, 0.99) 250ms;
 }
+
 /*
  * Hover
  * 1. Apply hover style also to focus state
@@ -13655,6 +13655,8 @@ aside > .uk-panel-box {
   text-align: center;
   overflow: hidden;
   margin: 0 -25px;
+  margin-bottom: -80px;
+    z-index: 999;
 }
 .tm-logo svg {
   height: 160px;
@@ -13672,6 +13674,8 @@ aside > .uk-panel-box {
 @media (min-width: 1700px) {
   .tm-logo {
     margin-left: -50px;
+	margin-bottom: -80px;
+    z-index: 999;
   }
 }
 .tm-navbar {
@@ -14308,7 +14312,7 @@ svg.tm-svg-icon.tm-block-icon {
 .tm-rating {
   list-style-type: none;
   padding: 0;
-  margin: 0 0 20px; text-align:center;
+  margin: 10px 0; text-align:center;
 }
 .tm-rating li {
   color: #fd8e18;
