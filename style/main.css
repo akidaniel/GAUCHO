@@ -17,7 +17,7 @@ html {
   -ms-text-size-adjust: 100%;
   /* 3 */
   background: #ffffff;
-  color: #382f2f;
+  color: #3E1918;
 }
 /*
  * Removes default margin.
@@ -4888,11 +4888,11 @@ a.btn-link {
  * 6. Remove `text-decoration` for anchors
  */
 [class*='fas fa-'] {
-  font-family: FontAwesome; font-weight: 900;
+  font-family: 'FONT AWESOME 5 FREE';
   /* 1 */
   display: inline-block;
   /* 2 */
-  font-weight: normal;
+  font-weight: 900;
   font-style: normal;
   /* 4 */
   line-height: 1;
@@ -13016,7 +13016,7 @@ aside > .uk-panel-box {
   overflow: hidden;
 }
 .tm-toolbar {
-  background: #381e1d;
+  background: #E3CA9B;
   padding: 10px 40px;
   line-height: 30px;
 }
